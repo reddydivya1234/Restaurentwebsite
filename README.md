@@ -17,7 +17,7 @@ This is a simple Restaurant Website built using HTML and CSS. The website provid
 
 ## 🧑‍💻 Setup Instructions
 1. Clone the repository:
-   git clone https://github.com/reddydivay1234/Restaurantwebsite.git
+   git clone https://github.com/reddydivya1234/Restaurantwebsite.git
 2. Navigate to the project directory:
    cd restaurant-website
 3. Open the index.html file in your browser to view the website.
