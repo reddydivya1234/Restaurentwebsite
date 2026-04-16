@@ -1,0 +1,77 @@
+body { 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; padding: 0; 
+}
+header {
+    background: #333; 
+    padding: 1rem 0; 
+    text-align: center; 
+}
+.navbar { 
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
+    gap: 2rem; 
+}
+.navbar li a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: 600; 
+}
+.menu, .contact { 
+    padding: 3rem 2rem; 
+    text-align: center; 
+}
+.menu-items { 
+    display: flex; 
+    justify-content: center; 
+    gap: 1.5rem; 
+    flex-wrap: wrap; 
+}
+.menu-item img {
+    width: 250px;   
+    height: 150px;  
+    object-fit: cover;  
+    border-radius: 8px;
+}
+
+.menu-item { 
+    background: #f4f4f4; 
+    padding: 1rem 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+footer { 
+    background: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem 0; 
+}
+.hero {
+    position: relative;
+    padding: 4rem 2rem;
+    height: 400px;
+    background: url('images/restaurent.webp') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1,
+.hero p {
+    position: relative;
+    z-index: 2; 
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
